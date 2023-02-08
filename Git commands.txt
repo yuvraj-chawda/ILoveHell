@@ -36,3 +36,5 @@
 	c) push
 		- git push origin 'branch-name'
 
+11) Pull
+ a)  git pull origin master
