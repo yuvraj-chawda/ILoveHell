@@ -1,0 +1,38 @@
+1) initialize repo
+	- git init
+2) add remote repo
+	- git remote add origin 'repo link'
+3) add git configs
+	- git config --global user.email "you@example.com"
+	- git config --global user.name "Your Name"
+	
+	- git config --list
+
+4) show git commit logs
+	- git log
+
+5) clone git repo
+	- git clone 'repo link'
+
+6) list branch 
+	- git branch
+
+7) create branch
+	- git checkout -b 'branch-name'
+
+8) change branch (switching branch)
+	- git checkout 'branch-name'
+
+9) rename branch 
+	- git branch -m 'rename-name'
+
+10) push changes
+	a) add changes
+		- git add 'files' or git add . (to add all the uncovered files)
+
+	b) commit 
+		- git commit -m 'message name'
+
+	c) push
+		- git push origin 'branch-name'
+
